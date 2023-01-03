@@ -1,0 +1,36 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "std_regex_test:shared=True",
+    "requires": [
+     "1"
+    ],
+    "path": "../../conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "std_regex_test/0.0.1#0477bfe58a232c6fceb25d176a1d000d",
+    "options": "shared=True",
+    "package_id": "9ff4b7ca1cb37c0de837519f7aeff8bf47ddd212",
+    "prev": "d7ec00a01a8c3f161c8ce1be1c333486",
+    "modified": true,
+    "build_requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "2": {
+    "ref": "ninja/1.11.1#a2f0b832705907016f336839f96963f8",
+    "options": "",
+    "package_id": "cc9f9b2b9f92fc82888026414560bf79d8c3a052",
+    "prev": "5356b5f48c31e8da1d8add2af0347639",
+    "context": "build"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Debug\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=8\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "profile_build": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Debug\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=8\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
+}

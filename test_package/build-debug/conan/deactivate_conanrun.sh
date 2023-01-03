@@ -1,0 +1,1 @@
+. "/export/home/workingArea/dev/std_regex_test/test_package/build-debug/conan/deactivate_conanrunenv-debug-x86_64.sh"

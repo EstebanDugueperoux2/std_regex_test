@@ -1,0 +1,33 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=8
+    os=Linux
+
+[requires]
+    std_regex_test/0.0.1
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=8
+    os=Linux
+
+[full_requires]
+    std_regex_test/0.0.1:9ff4b7ca1cb37c0de837519f7aeff8bf47ddd212
+
+[full_options]
+    std_regex_test:shared=True
+
+[recipe_hash]
+
+
+[env]
+

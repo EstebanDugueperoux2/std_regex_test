@@ -1,0 +1,14 @@
+{
+ "options": [
+  [
+   "std_regex_test:shared",
+   "True"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}
